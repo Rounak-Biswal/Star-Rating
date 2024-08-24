@@ -1,0 +1,31 @@
+.main{
+    padding: 50px;
+    text-align: center;
+}
+
+.cardTray{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+i{
+    font-size: 5vw;
+}
+
+.active{
+    color: gold
+}
+.inactive{
+    color: black
+}
+
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 8vw;
+    }
+    i{
+        font-size: 5vw;
+    }
+}
